@@ -136,13 +136,14 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     love_days = str(today.__sub__(love_date)).split(" ")[0]
     # 添加内容开始
 
-    love_datte = datetime.date(2020, 12, 9)
     d_todayy = datetime.date.today()
 
     for i in range(2, 5):
         d_year = 2020
         d_year += i
         annual_dayy = datetime.date(d_year, 12, 9)
+        int(d_todayy.year)
+        int(annual_dayy.year)
         if d_todayy.year == annual_dayy.year:
             # print('today is:',d_todayy)
             # print(annual_dayy)
