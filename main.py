@@ -1,7 +1,8 @@
 import random
 from time import localtime
 from requests import get, post
-from datetime import datetime, date, today
+from datetime import datetime, date
+import datetime
 from zhdate import ZhDate
 import sys
 import os
